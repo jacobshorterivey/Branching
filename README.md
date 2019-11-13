@@ -11,3 +11,21 @@
 * 'git checkout branchName' - move to branch 'branchName'
 * 'git branch' - display local branches and which we are on
 * 'git checkout -b newBranch' - create and check out branch 'newBranch'
+
+### Merging
+* Add and commit local branch.
+* Push local branch to remote.
+* Pull 'master' from remote into local branches
+```bash
+git checkout newBranch
+git pull origin master
+```
+* Resolve merge conflicts
+* Commit and push local branch
+```bash
+git add .
+git commit -m "Merging master with newBranch"
+git push origin newBranch
+```
+* On GitHub, create Pull Request
+* Teammates merge Pull Request into master.
