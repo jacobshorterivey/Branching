@@ -8,3 +8,4 @@
 ### Basic Branching
 * 'git branch branchName' - create local branch named 'branchName'
 * 'git checkout branchName' - move to branch 'branchName'
+* 'git branch' - display local branches and which we are on
