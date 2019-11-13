@@ -5,3 +5,9 @@
 * 'git add .' - add current working directory to git index
 * 'git commit -m "message"' - commit changes to local repo
 * 'git status' - display status of local repo
+
+### Basic Branching
+* 'git branch branchName' - create local branch named 'branchName'
+* 'git checkout branchName' - move to branch 'branchName'
+* 'git branch' - display local branches and which we are on
+* 'git checkout -b newBranch' - create and check out branch 'newBranch'
